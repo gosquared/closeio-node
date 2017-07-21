@@ -1,6 +1,6 @@
 {
   "name": "close.io",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "author": "John Wehr <johnwehr@gmail.com>",
   "description": "",
   "contributors": [
@@ -15,14 +15,13 @@
     "url": "git@github.com:elasticsales/closeio-node.git"
   },
   "keywords": [],
-  "dependencies" : {
-    "node-promise": "0.5.8",
-    "request": "2.27.0"
+  "dependencies": {
+    "request": "^2.81.0"
   },
   "noAnalyze": true,
   "license": "MIT",
   "engine": {
-    "node": ">=0.6"
+    "node": ">=6"
   },
   "scripts": {
     "test": "mocha"
